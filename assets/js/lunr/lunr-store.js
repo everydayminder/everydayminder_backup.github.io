@@ -34,6 +34,11 @@ var store = [{
         "tags": [],
         "url": "/english/be-allergic-to-contagious/",
         "teaser":null},{
+        "title": "there is no ~ing",
+        "excerpt":"“~하는 것은 불가능하다”, “~할 수 없다”라는 뜻이다. ~하는 것은 불가능하다, ~할 수 없다라는 말을 영작할 때, 습관적으로 It is impossible to ~, S cannot ~ 라고 했다면, there is no ~ ing라고도 써보자. 내일 전화영어에는 꼭 써보리라. -_-+ There is no singing in the library. 도서관에서 노래 부를 수 없다....","categories": ["english"],
+        "tags": [],
+        "url": "/english/there-is-no-ing/",
+        "teaser":null},{
         "title": "why ~? vs. how come ~?",
         "excerpt":"why와 how come은 둘 다, “왜~?”라는 문장을 구성한다. 그러나, 그 뒤의 문장 순서가 다르다는 차이가 있다. why로 시작하는 의문문은 우리가 알고 있는 의문문의 형태이다. 그러나, how come은 평서문의 순서를 취한다. “왜 전화 안 했어?” Why didn’t you phone me? How come you didn’t phone me? “왜 일찍 일어나지 않았어?” Why...","categories": ["english"],
         "tags": [],
