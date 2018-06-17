@@ -13,9 +13,9 @@ pipelines:
           - git config --global user.name "jaehyun kim"
           - gem install jekyll
           - bundle install
-          - rm -rf .git
-          - git clone https://everydayminder:$credential@github.com/everydayminder/everydayminder.github.io.git _site
           - jekyll build
-          - cd _site
-          - git add . && git commit -m "New version - $BITBUCKET_COMMIT"
+          - git clone https://everydayminder:$credential@github.com/everydayminder/everydayminder.github.io.git _trg
+          - cp -r ./_site/* _trg/
+          - cd _trg
+          - git add . && git commit -m "New version - $BITBUCKET_COMMIT @`date`"
           - git push origin master

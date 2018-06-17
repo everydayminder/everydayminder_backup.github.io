@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T04:11:02+00:00</updated><id>/</id><title type="html">Site Title</title><subtitle>An amazing website.</subtitle><author><name>Your Name</name></author><entry><title type="html">Hadoop Installation on Ubuntu Linux 7.10</title><link href="/system/hadoop-installation-on-ubuntu-linux-710/" rel="alternate" type="text/html" title="Hadoop Installation on Ubuntu Linux 7.10" /><published>2008-07-16T21:05:49+00:00</published><updated>2008-07-16T21:05:49+00:00</updated><id>/system/hadoop-installation-on-ubuntu-linux-710</id><content type="html" xml:base="/system/hadoop-installation-on-ubuntu-linux-710/">&lt;h2 id=&quot;related-articles-by-michael-g-noll&quot;&gt;Related articles by Michael G. Noll&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Running Hadoop On Ubuntu Linux (Single Node Cluster)
+&lt;a href=&quot;http://wiki.apache.org/hadoop/Running_Hadoop_On_Ubuntu_Linux_%28Single-Node_Cluster%29&quot;&gt;http://wiki.apache.org/hadoop/Running_Hadoop_On_Ubuntu_Linux_%28Single-Node_Cluster%29&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Running Hadoop On Ubuntu Linux (Multi Node Cluster)
+&lt;a href=&quot;http://www.michael-noll.com/wiki/Running_Hadoop_On_Ubuntu_Linux_%28Multi-Node_Cluster%29&quot;&gt;http://www.michael-noll.com/wiki/Running_Hadoop_On_Ubuntu_Linux_%28Multi-Node_Cluster%29&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;[Comments]&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;I created a VMWare Team project file and added two instances of existing virtual machines.&lt;/li&gt;
+  &lt;li&gt;Each VMWare instance has a single node cluster.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;IP alias name should be defined before loop back alias name (localhost) in ‘/etc/hosts’ file.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><category term="hadoop" /><summary type="html">Related articles by Michael G. Noll Running Hadoop On Ubuntu Linux (Single Node Cluster) http://wiki.apache.org/hadoop/Running_Hadoop_On_Ubuntu_Linux_%28Single-Node_Cluster%29</summary></entry><entry><title type="html">HBase Installation (Standalone mode/local file system)</title><link href="/system/hbase-installation-standalone-modelocal-file-system/" rel="alternate" type="text/html" title="HBase Installation (Standalone mode/local file system)" /><published>2008-07-14T23:48:02+00:00</published><updated>2008-07-14T23:48:02+00:00</updated><id>/system/hbase-installation-standalone-modelocal-file-system</id><content type="html" xml:base="/system/hbase-installation-standalone-modelocal-file-system/">&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Java 1.5.x, preferably from Sun.&lt;/li&gt;
+  &lt;li&gt;Hadoop 0.16.x. This version of HBase will only run on Hadoop 0.16.x..&lt;/li&gt;
+  &lt;li&gt;ssh must be installed and sshd must be running to use Hadoop’s scripts 
+   to manage remote Hadoop daemons.&lt;/li&gt;
+  &lt;li&gt;HBase currently is a file handle hog. The usual default of 1024 on *nix systems 
+   is insufficient if you are loading any significant amount of data into regionservers. 
+  See the FAQ: Why do I see “java.io.IOException…(Too many open files)” in my logs?  for how to up the limit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;c-installation-of-hbase&quot;&gt;[C] Installation of HBase&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Java 1.5.x
+    &lt;ul&gt;
+      &lt;li&gt;installed java 1.6.x&lt;/li&gt;
+      &lt;li&gt;Not sure whether 1.6.x will work&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Unzipped the Hadoop archive file (ver 1.3) at ~/hbase&lt;/li&gt;
+  &lt;li&gt;ssh &amp;amp; sshd configuration (execution)
+    &lt;ul&gt;
+      &lt;li&gt;sudo apt-get install openssh-server&lt;/li&gt;
+      &lt;li&gt;sudo /etc/init.d/ssh start (stop)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;edit the limit number of file handlers
+    &lt;ul&gt;
+      &lt;li&gt;checked /etc/security/limits.conf but there is no option to edit for this&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;c-hbase-configuration&quot;&gt;[C] HBase Configuration&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;${HBASE_HOME} : the real location of hbase (/home/luran/hbase)&lt;/li&gt;
+  &lt;li&gt;modify JAVA_HOME information on ${HBASE_HOME}/conf/hbase-env.sh&lt;/li&gt;
+  &lt;li&gt;start HBase by ${HBASE_HOME}/bin/start_hbase.sh&lt;/li&gt;
+  &lt;li&gt;stop HBase by ${HBASE_HOME}/bin/stop-hbase.sh&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><category term="hadoop" /><summary type="html">Requirements Java 1.5.x, preferably from Sun. Hadoop 0.16.x. This version of HBase will only run on Hadoop 0.16.x.. ssh must be installed and sshd must be running to use Hadoop’s scripts    to manage remote Hadoop daemons. HBase currently is a file handle hog. The usual default of 1024 on *nix systems    is insufficient if you are loading any significant amount of data into regionservers.   See the FAQ: Why do I see “java.io.IOException…(Too many open files)” in my logs?  for how to up the limit.</summary></entry><entry><title type="html">Ubuntu에서 VIM이 재설치가 안될때</title><link href="/tips/install_vim_under_ubuntu/" rel="alternate" type="text/html" title="Ubuntu에서 VIM이 재설치가 안될때" /><published>2008-07-13T19:58:40+00:00</published><updated>2008-07-13T19:58:40+00:00</updated><id>/tips/install_vim_under_ubuntu</id><content type="html" xml:base="/tips/install_vim_under_ubuntu/">&lt;p&gt;Ubuntu 7.10에서 기본적으로 설치되어 있는 Vim은 Tiny 버전이다.
+기타 필요한 VIM의 기능을 쓸 수가 없으므로, 재설치는 필수이다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install vim
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;그러나, 이 재설치가 제대로 안되는 경우가 있다.
+이럴 때, Ubuntu 소스의 repository를 제대로 업데이트 해줘야
+sudo apt-get update도 된다.&lt;/p&gt;
+
+&lt;p&gt;다음의 내용을 보완하자.&lt;/p&gt;
+
+&lt;p&gt;/etc/apt/sources.list 파일에 아래의 내용을 추가(혹은 기존 내용은 모두 삭제 or 코멘트 처리)하면 된다.&lt;/p&gt;
+
+&lt;h2 id=&quot;daum-mirror-repository-in-korea&quot;&gt;Daum Mirror Repository in Korea&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;deb http://ftp.daum.net/ubuntu gutsy main multiverse restricted universe
+deb-src http://ftp.daum.net/ubuntu gutsy main multiverse restricted universe
+deb http://ftp.daum.net/ubuntu gutsy-backports main multiverse restricted universe
+deb-src http://ftp.daum.net/ubuntu gutsy-backports main multiverse restricted universe
+deb http://ftp.daum.net/ubuntu gutsy-proposed main multiverse restricted universe
+deb-src http://ftp.daum.net/ubuntu gutsy-proposed main multiverse restricted universe
+deb http://ftp.daum.net/ubuntu gutsy-security main multiverse restricted universe
+deb-src http://ftp.daum.net/ubuntu gutsy-security main multiverse restricted universe
+
+deb http://ftp.daum.net/ubuntu gutsy-updates main multiverse restricted universe
+deb-src http://ftp.daum.net/ubuntu gutsy-updates main multiverse restricted universe
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이 내용을 적용한 후,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install vim 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;하면 정상으로 설치가 된다.&lt;/p&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><category term="vim" /><summary type="html">Ubuntu 7.10에서 기본적으로 설치되어 있는 Vim은 Tiny 버전이다. 기타 필요한 VIM의 기능을 쓸 수가 없으므로, 재설치는 필수이다.</summary></entry><entry><title type="html">20080709 Install Ubuntu 7.10 &amp;amp; VMware-tools</title><link href="/system/20080709-install-ubuntu-710-vmware-tools/" rel="alternate" type="text/html" title="20080709 Install Ubuntu 7.10 &amp; VMware-tools" /><published>2008-07-10T20:13:19+00:00</published><updated>2008-07-10T20:13:19+00:00</updated><id>/system/20080709-install-ubuntu-710-vmware-tools</id><content type="html" xml:base="/system/20080709-install-ubuntu-710-vmware-tools/">&lt;h2 id=&quot;c-installiation-of-ubuntu-710&quot;&gt;[C] Installiation of Ubuntu 7.10&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;flow&lt;/li&gt;
+  &lt;li&gt;downloaded the image file&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;installation complete (without security packages)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;comments&lt;/li&gt;
+  &lt;li&gt;installed Ubuntu 8.04 (the latest version)&lt;/li&gt;
+  &lt;li&gt;failed to install other development packages on it&lt;/li&gt;
+  &lt;li&gt;version 8.04 seems NOT stable as 7.xx -&amp;gt; let’s install version 7.10 instead&lt;/li&gt;
+  &lt;li&gt;it takes too long!! (about an hour) 
+   -&amp;gt; backing up the vmware image file after installation will be desirable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;c-installation-of-vmware-tools&quot;&gt;[C] Installation of vmware-tools&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;choose ‘Install VMware-tools’ from the VMWare menu&lt;/li&gt;
+  &lt;li&gt;mount VMware tools from the desktop&lt;/li&gt;
+  &lt;li&gt;copy VMware tools tar.gz file to anywhere that i want&lt;/li&gt;
+  &lt;li&gt;extract the archive file, and change the permission to root user by ‘sudo -i’&lt;/li&gt;
+  &lt;li&gt;execute vmware-install.pl&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;}</name><email>2jhyun@gmail.com</email></author><category term="tomcat" /><summary type="html">[C] Installiation of Ubuntu 7.10 flow downloaded the image file installation complete (without security packages)</summary></entry></feed>
