@@ -18,4 +18,9 @@ var store = [{
         "excerpt":"Related articles by Michael G. Noll Running Hadoop On Ubuntu Linux (Single Node Cluster)http://wiki.apache.org/hadoop/Running_Hadoop_On_Ubuntu_Linux_%28Single-Node_Cluster%29 Running Hadoop On Ubuntu Linux (Multi Node Cluster)http://www.michael-noll.com/wiki/Running_Hadoop_On_Ubuntu_Linux_%28Multi-Node_Cluster%29 [Comments] I created a VMWare Team project file and added two instances of existing virtual machines. Each VMWare instance has a single node cluster. IP alias name should...","categories": ["system"],
         "tags": ["hadoop"],
         "url": "/system/hadoop-installation-on-ubuntu-linux-710/",
+        "teaser":null},{
+        "title": "퍼옴) 명지대 김정운 교수 강연내용 발췌 (2008. 7. 10)",
+        "excerpt":"김정운 명지대 교수 강연내용(2008.7.10, DM총괄 Professional Forum) ㅇ 본인이 행복을 강연하고 다니니 어설픈 사람으로 인식되는 경우가 있으나    나름대로 공부를 많이 했음. 독일에서 13년간 유학했고 본인이 가르친    제자 중 3명이 교수가 되었음. 최근 1명이 하버드대학 교수가 되었는데,    본인이 가르친 것이 계기가 되어 관련 분야를 연구하여 결과적으로    하버드대...","categories": ["reading"],
+        "tags": [],
+        "url": "/reading/Happiness_by_JWKim/",
         "teaser":null}]
