@@ -34,6 +34,11 @@ var store = [{
         "tags": [],
         "url": "/english/be-allergic-to-contagious/",
         "teaser":null},{
+        "title": "on the verge of",
+        "excerpt":"verge brink, point, edge, threshold   border, edge, margin, limit, boundary, threshold, brimcome near to, approach, border on, resemble, incline to, be similar to, touch on… &lt;/span&gt; 가장자리, 경계 on the verge of : ~의 경계에 있으므로 뭔가 변화가 일어나기 직전.                        막 ~ 하려고 하는 중인. ex) The country was...","categories": ["english"],
+        "tags": [],
+        "url": "/english/on-the-verge-of/",
+        "teaser":null},{
         "title": "there is no ~ing",
         "excerpt":"“~하는 것은 불가능하다”, “~할 수 없다”라는 뜻이다. ~하는 것은 불가능하다, ~할 수 없다라는 말을 영작할 때, 습관적으로 It is impossible to ~, S cannot ~ 라고 했다면, there is no ~ ing라고도 써보자. 내일 전화영어에는 꼭 써보리라. -_-+ There is no singing in the library. 도서관에서 노래 부를 수 없다....","categories": ["english"],
         "tags": [],
