@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T13:56:50+00:00</updated><id>/</id><title type="html">Site Title</title><subtitle>An amazing website.</subtitle><author><name>Your Name</name></author><entry><title type="html">why ~? vs. how come ~?</title><link href="/english/why-vs-how-come/" rel="alternate" type="text/html" title="why ~? vs. how come ~?" /><published>2010-07-26T04:25:16+00:00</published><updated>2010-07-26T04:25:16+00:00</updated><id>/english/why-vs-how-come</id><content type="html" xml:base="/english/why-vs-how-come/">&lt;p&gt;why와 how come은 둘 다, “왜~?”라는 문장을 구성한다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T14:38:05+00:00</updated><id>/</id><title type="html">Site Title</title><subtitle>An amazing website.</subtitle><author><name>Your Name</name></author><entry><title type="html">why ~? vs. how come ~?</title><link href="/english/why-vs-how-come/" rel="alternate" type="text/html" title="why ~? vs. how come ~?" /><published>2010-07-26T04:25:16+00:00</published><updated>2010-07-26T04:25:16+00:00</updated><id>/english/why-vs-how-come</id><content type="html" xml:base="/english/why-vs-how-come/">&lt;p&gt;why와 how come은 둘 다, “왜~?”라는 문장을 구성한다.&lt;/p&gt;
 
 &lt;p&gt;그러나, 그 뒤의 문장 순서가 다르다는 차이가 있다.&lt;/p&gt;
 
@@ -55,7 +55,7 @@
 
 &lt;p&gt;Carole was on the verge of tears.&lt;/p&gt;
 
-&lt;p&gt;cf. brink&lt;/p&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><summary type="html">verge</summary></entry><entry><title type="html">be allergic to, contagious</title><link href="/english/be-allergic-to-contagious/" rel="alternate" type="text/html" title="be allergic to, contagious" /><published>2008-10-14T03:48:51+00:00</published><updated>2008-10-14T03:48:51+00:00</updated><id>/english/be-allergic-to-contagious</id><content type="html" xml:base="/english/be-allergic-to-contagious/">&lt;p&gt;&lt;strong&gt;&lt;FONT color=&quot;#e0f0e9&quot;&gt;&lt;span style=&quot;font-size:12pt;&quot;&gt;be allergic to&lt;/span&gt;&lt;br /&gt; &lt;/FONT&gt;&lt;/strong&gt;commonly used when you have some kind of allergies&lt;/p&gt;
+&lt;p&gt;cf. brink&lt;/p&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><summary type="html">verge</summary></entry><entry><title type="html">someone’s hands are tight</title><link href="/english/someones_hands_are_tight/" rel="alternate" type="text/html" title="someone's hands are tight" /><published>2009-01-04T23:15:12+00:00</published><updated>2009-01-04T23:15:12+00:00</updated><id>/english/someones_hands_are_tight</id><content type="html" xml:base="/english/someones_hands_are_tight/">&lt;p&gt;손이 tight 하다 = 바쁘다~&lt;/p&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><summary type="html">손이 tight 하다 = 바쁘다~</summary></entry><entry><title type="html">be allergic to, contagious</title><link href="/english/be-allergic-to-contagious/" rel="alternate" type="text/html" title="be allergic to, contagious" /><published>2008-10-14T03:48:51+00:00</published><updated>2008-10-14T03:48:51+00:00</updated><id>/english/be-allergic-to-contagious</id><content type="html" xml:base="/english/be-allergic-to-contagious/">&lt;p&gt;&lt;strong&gt;&lt;FONT color=&quot;#e0f0e9&quot;&gt;&lt;span style=&quot;font-size:12pt;&quot;&gt;be allergic to&lt;/span&gt;&lt;br /&gt; &lt;/FONT&gt;&lt;/strong&gt;commonly used when you have some kind of allergies&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;FONT color=&quot;#e0f0e9&quot;&gt;&lt;span style=&quot;font-size:12pt;&quot;&gt;contagious&lt;/span&gt;&lt;br /&gt; &lt;/FONT&gt;&lt;/strong&gt;a disease is capable of being trasmitted by infection or easily spreads as&lt;/p&gt;
 
@@ -374,26 +374,4 @@ deb-src http://ftp.daum.net/ubuntu gutsy-updates main multiverse restricted univ
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get update
 sudo apt-get install vim 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;하면 정상으로 설치가 된다.&lt;/p&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><category term="vim" /><summary type="html">Ubuntu 7.10에서 기본적으로 설치되어 있는 Vim은 Tiny 버전이다. 기타 필요한 VIM의 기능을 쓸 수가 없으므로, 재설치는 필수이다.</summary></entry><entry><title type="html">20080709 Install Ubuntu 7.10 &amp;amp; VMware-tools</title><link href="/system/20080709-install-ubuntu-710-vmware-tools/" rel="alternate" type="text/html" title="20080709 Install Ubuntu 7.10 &amp; VMware-tools" /><published>2008-07-10T20:13:19+00:00</published><updated>2008-07-10T20:13:19+00:00</updated><id>/system/20080709-install-ubuntu-710-vmware-tools</id><content type="html" xml:base="/system/20080709-install-ubuntu-710-vmware-tools/">&lt;h2 id=&quot;c-installiation-of-ubuntu-710&quot;&gt;[C] Installiation of Ubuntu 7.10&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;flow&lt;/li&gt;
-  &lt;li&gt;downloaded the image file&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;installation complete (without security packages)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;comments&lt;/li&gt;
-  &lt;li&gt;installed Ubuntu 8.04 (the latest version)&lt;/li&gt;
-  &lt;li&gt;failed to install other development packages on it&lt;/li&gt;
-  &lt;li&gt;version 8.04 seems NOT stable as 7.xx -&amp;gt; let’s install version 7.10 instead&lt;/li&gt;
-  &lt;li&gt;it takes too long!! (about an hour) 
-   -&amp;gt; backing up the vmware image file after installation will be desirable&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;c-installation-of-vmware-tools&quot;&gt;[C] Installation of vmware-tools&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;choose ‘Install VMware-tools’ from the VMWare menu&lt;/li&gt;
-  &lt;li&gt;mount VMware tools from the desktop&lt;/li&gt;
-  &lt;li&gt;copy VMware tools tar.gz file to anywhere that i want&lt;/li&gt;
-  &lt;li&gt;extract the archive file, and change the permission to root user by ‘sudo -i’&lt;/li&gt;
-  &lt;li&gt;execute vmware-install.pl&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;}</name><email>2jhyun@gmail.com</email></author><category term="tomcat" /><summary type="html">[C] Installiation of Ubuntu 7.10 flow downloaded the image file installation complete (without security packages)</summary></entry></feed>
+&lt;p&gt;하면 정상으로 설치가 된다.&lt;/p&gt;</content><author><name>{&quot;login&quot;=&gt;&quot;everydayminder&quot;, &quot;email&quot;=&gt;&quot;2jhyun@gmail.com&quot;, &quot;display_name&quot;=&gt;&quot;everydayminder&quot;, &quot;first_name&quot;=&gt;&quot;&quot;, &quot;last_name&quot;=&gt;&quot;&quot;}</name><email>2jhyun@gmail.com</email></author><category term="vim" /><summary type="html">Ubuntu 7.10에서 기본적으로 설치되어 있는 Vim은 Tiny 버전이다. 기타 필요한 VIM의 기능을 쓸 수가 없으므로, 재설치는 필수이다.</summary></entry></feed>
