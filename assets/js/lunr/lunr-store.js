@@ -30,7 +30,12 @@ var store = [{
         "url": "/reading/Happiness_by_JWKim/",
         "teaser":null},{
         "title": "be allergic to, contagious",
-        "excerpt":"be allergic to commonly used when you have some kind of allergies contagious a disease is capable of being trasmitted by infection or easily spreads as from one person to another ","categories": ["Life/English"],
+        "excerpt":"be allergic to commonly used when you have some kind of allergies contagious a disease is capable of being trasmitted by infection or easily spreads as from one person to another ","categories": ["english"],
         "tags": [],
-        "url": "/?p=35",
+        "url": "/english/be-allergic-to-contagious/",
+        "teaser":null},{
+        "title": "why ~? vs. how come ~?",
+        "excerpt":"why와 how come은 둘 다, “왜~?”라는 문장을 구성한다. 그러나, 그 뒤의 문장 순서가 다르다는 차이가 있다. why로 시작하는 의문문은 우리가 알고 있는 의문문의 형태이다. 그러나, how come은 평서문의 순서를 취한다. “왜 전화 안 했어?” Why didn’t you phone me? How come you didn’t phone me? “왜 일찍 일어나지 않았어?” Why...","categories": ["english"],
+        "tags": [],
+        "url": "/english/why-vs-how-come/",
         "teaser":null}]
