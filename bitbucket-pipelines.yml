@@ -13,7 +13,7 @@ pipelines:
           - git config --global user.name "jaehyun kim"
           - gem install jekyll
           - bundle install
-          - jekyll build
+          - JEKYLL_ENV=production jekyll build
           - rm -rf .git
           - git clone https://everydayminder:$credential@github.com/everydayminder/everydayminder.github.io.git _trg
           - cp -r ./_site/* _trg/
