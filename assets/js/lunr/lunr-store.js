@@ -19,8 +19,18 @@ var store = [{
         "tags": ["hadoop"],
         "url": "/system/hadoop-installation-on-ubuntu-linux-710/",
         "teaser":null},{
+        "title": "불필요 ethernet interface 정보 정리하기",
+        "excerpt":"VMWare를 쓰면서, 만들어둔 이미지를 여러번 복사하면서 쓰다보니불필요한 ethernet interface 정보가 생성됐다. eth0, eth1만 필요한데,막상 인터페이스 정보를 보면, eth4, eth5로 생성되어 있는 이 현상을정리하려면 다음과 같이 하면 된다. $ cd /etc/udev/rules.d$ vi 70-persistent-net.rules파일을 열어서, 내용을 다 지워주고, 재부팅한다.재부팅 후, 네트워크 인터페이스를 조사하면, 다시 eth0, eth1 등으로 재 설정된 것을 확인할 수...","categories": ["linux","vm"],
+        "tags": ["linux"],
+        "url": "/linux/vm/Cleansing_Ehternet_Info/",
+        "teaser":null},{
         "title": "퍼옴) 명지대 김정운 교수 강연내용 발췌 (2008. 7. 10)",
         "excerpt":"김정운 명지대 교수 강연내용(2008.7.10, DM총괄 Professional Forum) ㅇ 본인이 행복을 강연하고 다니니 어설픈 사람으로 인식되는 경우가 있으나    나름대로 공부를 많이 했음. 독일에서 13년간 유학했고 본인이 가르친    제자 중 3명이 교수가 되었음. 최근 1명이 하버드대학 교수가 되었는데,    본인이 가르친 것이 계기가 되어 관련 분야를 연구하여 결과적으로    하버드대...","categories": ["reading"],
         "tags": [],
         "url": "/reading/Happiness_by_JWKim/",
+        "teaser":null},{
+        "title": "be allergic to, contagious",
+        "excerpt":"be allergic to commonly used when you have some kind of allergies contagious a disease is capable of being trasmitted by infection or easily spreads as from one person to another ","categories": ["Life/English"],
+        "tags": [],
+        "url": "/?p=35",
         "teaser":null}]

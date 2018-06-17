@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Site Title</title>
+<!-- begin _includes/seo.html --><title>Posts by Category - Site Title</title>
 <meta name="description" content="An amazing website.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Site Title">
-<meta property="og:title" content="Site Title">
-<meta property="og:url" content="/">
+<meta property="og:title" content="Posts by Category">
+<meta property="og:url" content="/categories/">
 
 
 
@@ -36,11 +36,9 @@
   
 
 
-<link rel="canonical" href="/">
+<link rel="canonical" href="/categories/">
 
 
-
-  <link rel="next" href="/page2/">
 
 
 
@@ -103,7 +101,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--archive">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -240,12 +238,158 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Posts by Category</h1>
     
-    <h3 class="archive__subtitle">Recent Posts</h3>
+    <!--
+# Jekyll Group-By-Array 0.1.0
+# https://github.com/mushishi78/jekyll-group-by-array
+# © 2015 Max White <mushishi78@gmail.com>
+# MIT License
+-->
+
+<!-- Initialize -->
+
+
+
+
+<!-- Map -->
+
+
+<!-- Flatten -->
+
+
+<!-- Uniq -->
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+<!-- Push to group_names -->
+
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+<!-- Push to group_names -->
+
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+<!-- Push to group_names -->
+
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+<!-- Push to group_names -->
+
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+<!-- Push to group_names -->
+
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+<!-- Push to group_names -->
+
+
+
+
+
+
+
+<!-- group_items -->
+
+
+<!-- Collect if contains -->
+
+
+
+<!-- Push to group_items -->
+
+
+
+<!-- Collect if contains -->
+
+
+
+<!-- Push to group_items -->
+
+
+
+<!-- Collect if contains -->
+
+
+
+<!-- Push to group_items -->
+
+
+
+<!-- Collect if contains -->
+
+
+
+<!-- Push to group_items -->
+
+
+
+<!-- Collect if contains -->
+
+
+
+<!-- Push to group_items -->
+
+
+
+<!-- Collect if contains -->
+
+
+
+<!-- Push to group_items -->
+
 
 
   
+  <h2 id="life-english" class="archive__subtitle">Life/English</h2>
+  
+    
 
 
 
@@ -276,40 +420,12 @@
   </article>
 </div>
 
-
   
 
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/reading/Happiness_by_JWKim/" rel="permalink">퍼옴) 명지대 김정운 교수 강연내용 발췌 (2008. 7. 10)
-</a>
-      
-    </h2>
-	
-		<i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2008-07-17T19:54:55+00:00">July 17, 2008 </time>&emsp;
-	
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  8 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">김정운 명지대 교수 강연내용(2008.7.10, DM총괄 Professional Forum)
-
-</p>
-  </article>
-</div>
-
-
   
+  <h2 id="linux" class="archive__subtitle">linux</h2>
+  
+    
 
 
 
@@ -341,8 +457,48 @@
   </article>
 </div>
 
+  
 
   
+  <h2 id="reading" class="archive__subtitle">reading</h2>
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/reading/Happiness_by_JWKim/" rel="permalink">퍼옴) 명지대 김정운 교수 강연내용 발췌 (2008. 7. 10)
+</a>
+      
+    </h2>
+	
+		<i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2008-07-17T19:54:55+00:00">July 17, 2008 </time>&emsp;
+	
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">김정운 명지대 교수 강연내용(2008.7.10, DM총괄 Professional Forum)
+
+</p>
+  </article>
+</div>
+
+  
+
+  
+  <h2 id="system" class="archive__subtitle">system</h2>
+  
+    
 
 
 
@@ -374,8 +530,8 @@ http://wiki.apache.org/hadoop/Running_Hadoop_On_Ubuntu_Linux_%28S...</p>
   </article>
 </div>
 
-
   
+    
 
 
 
@@ -408,45 +564,118 @@ http://wiki.apache.org/hadoop/Running_Hadoop_On_Ubuntu_Linux_%28S...</p>
   </article>
 </div>
 
-
-
-
-<nav class="pagination">
   
-  <ul>
-    
-    
-    <li><a href="#" class="disabled"><span aria-hidden="true">Previous</span></a></li>
     
 
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/system/20080709-install-ubuntu-710-vmware-tools/" rel="permalink">20080709 Install Ubuntu 7.10 &amp; VMware-tools
+</a>
+      
+    </h2>
+	
+		<i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2008-07-10T20:13:19+00:00">July 10, 2008 </time>&emsp;
+	
     
-      <li><a href="#" class="disabled current">1</a></li>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[C] Installiation of Ubuntu 7.10
+
+  flow
+  downloaded the image file
+  installation complete (without security packages)
+
+
+</p>
+  </article>
+</div>
+
+  
+
+  
+  <h2 id="tips" class="archive__subtitle">tips</h2>
+  
     
 
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tips/install_vim_under_ubuntu/" rel="permalink">Ubuntu에서 VIM이 재설치가 안될때
+</a>
+      
+    </h2>
+	
+		<i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2008-07-13T19:58:40+00:00">July 13, 2008 </time>&emsp;
+	
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Ubuntu 7.10에서 기본적으로 설치되어 있는 Vim은 Tiny 버전이다.
+기타 필요한 VIM의 기능을 쓸 수가 없으므로, 재설치는 필수이다.
+
+</p>
+  </article>
+</div>
+
+  
+
+  
+  <h2 id="vm" class="archive__subtitle">vm</h2>
+  
     
 
-    
-    
-    
 
-    
 
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/linux/vm/Cleansing_Ehternet_Info/" rel="permalink">불필요 ethernet interface 정보 정리하기
+</a>
+      
+    </h2>
+	
+		<i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="2008-07-17T16:05:55+00:00">July 17, 2008 </time>&emsp;
+	
     
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-    
-      <li><a href="/page2/">2</a></li>
-    
 
-    
-    
-      <li><a href="/page2/">Next</a></li>
-    
-  </ul>
-</nav>
 
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">VMWare를 쓰면서, 만들어둔 이미지를 여러번 복사하면서 쓰다보니
+불필요한 ethernet interface 정보가 생성됐다.
+
+</p>
+  </article>
+</div>
+
+  
 
 
   </div>
