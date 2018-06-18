@@ -29,6 +29,11 @@ var store = [{
         "tags": [],
         "url": "/reading/Happiness_by_JWKim/",
         "teaser":null},{
+        "title": "How do you call him?",
+        "excerpt":"질문 의도는 “그 사람을 뭐라 부르면 되나요?” 지만, 대답으로 일반전화 번호나 휴대폰 전화를 알게 될 것이다.질문이 “그 사람에게 어떻게 전화하나요?” 이었기 때문이다. 그 사람을 뭐라 부르면 되나요?에 대한 대답을 들으려면,How do I address him? 이라고 하자. &lt;/span&gt; ","categories": ["english"],
+        "tags": [],
+        "url": "/english/how-do-you-call-him/",
+        "teaser":null},{
         "title": "be allergic to, contagious",
         "excerpt":"be allergic to commonly used when you have some kind of allergies contagious a disease is capable of being trasmitted by infection or easily spreads as from one person to another ","categories": ["english"],
         "tags": [],
