@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://everydayminder.github.io/sitemap.xml
